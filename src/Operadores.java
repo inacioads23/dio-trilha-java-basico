@@ -25,7 +25,7 @@ public class Operadores {
 		 * concatenacao = "1" + 1 + 1 + 1; System.out.println(concatenacao);
 		 * 
 		 * concatenacao = "1" + (1 + 1 + 1); System.out.println(concatenacao);
-		 */
+		 
 
 		// Operadores unários
 		int numero = 5;
@@ -33,12 +33,32 @@ public class Operadores {
 		System.out.println(- numero); // o número fica negativo por causa do OPERADOR DE NEGAÇÃO. Mas isso não afetou a variável
 		System.out.println(numero); // aqui é possível ver que o valor da variável não foi afetado
 
-		/// para haver uma mudança eu preciso atribuir um novo valor a variável
+		// para haver uma mudança eu preciso atribuir um novo valor a variável
 		numero = - numero; //torno o valor negativo
 		System.out.println(numero); // agora o valor da variável foi afetado
+		*/
 		
+		/*
+		//Operadores de repetição 
+		int numero = 5;
 		
+		//numero = numero + 1;
+		numero++;
+		System.out.println(numero);
+		
+		//numero = numero -1;
+		numero--;
+		System.out.println(numero);
+		*/
 
+		//Operador de negação com boolean
+		boolean variavel = true;
+		
+		System.out.println(!variavel); //irá negar/ inverter o valor. Porém a o valor da variável não foi alterado
+		System.out.println(variavel); //O valor da variável não foi alterado
+		
+		variavel = !variavel;		
+		System.out.println(variavel); //Agora o valor da variável foi alterado
 	}
 
 }

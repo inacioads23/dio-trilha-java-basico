@@ -92,6 +92,41 @@ public class Operadores {
 		System.out.println(resultado);
 		*/
 		
+		//OPERADORES RELACIONAIS
+		String nomeUm = "INACIO";
+		String nomeDois = "INACIO";
+		String nomeTres = new String("INACIO");
+		
+			
+		System.out.println(nomeUm == nomeDois);
+		System.out.println(nomeUm == nomeTres);
+		System.out.println(nomeUm.equals(nomeTres)); //para comparação de texto usar ".equals"
+		
+		
+		int numero1 = 1;
+		int numero2 = 2;
+		
+		if(numero1 > numero2) {
+			System.out.println("Número 1 maior que numero 2");
+		}else if(numero1 < numero2) {
+			System.out.println("Número 1 menor que numero 2");
+		}
+				
+			  		   //numero1 é igual a numero2?
+		boolean simNao = numero1 == numero2;
+		System.out.println("numeroUm é igual a numeroDois? " + simNao);
+		
+			   //numero1 é diferente do numero2?
+		simNao = numero1 != numero2;
+		System.out.println("numeroUm é diferente de numeroDois? " + simNao);
+		
+			   //numero1 é maior que o numero2?
+		simNao = numero1 > numero2;
+		System.out.println("numeroUm é maior que o numeroDois? " + simNao);
+		
+			   //numero1 é menor que o numero2?
+		simNao = numero1 < numero2;
+		System.out.println("numeroUm é menor que o numeroDois? " + simNao);
 
 	}
 

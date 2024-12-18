@@ -1,3 +1,4 @@
+package ifElseSwitchCase;
 import java.util.Locale;
 
 public class CaixaEletronico {

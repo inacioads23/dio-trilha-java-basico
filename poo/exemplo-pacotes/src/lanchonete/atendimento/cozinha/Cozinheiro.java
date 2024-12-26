@@ -1,8 +1,10 @@
-package lanchonete;
+package lanchonete.atendimento.cozinha;
+
+import lanchonete.atendimento.Atendente;
 
 public class Cozinheiro {
 	public void adicionarLancheNoBalcao() {
-		System.out.println("ADICIONADO LANCHE NATURAL NO BALCAO");
+		System.out.println("ADICIONADO LANCHE NATURAL HAMBURGUER NO BALCAO");
 	}
 	
 	public void adicionarSucoNoBalcao() {
@@ -32,7 +34,7 @@ public class Cozinheiro {
 	}
 	
 	public void selecionarIngredientesVitamina() {
-		System.out.println("SELECIONANDO FRUTA, LEITA,");
+		System.out.println("SELECIONANDO FRUTA, LEITE E SUCO");
 	}
 	
 	public void lavarIngredientes() {
@@ -44,7 +46,7 @@ public class Cozinheiro {
 	}
 	
 	public void fritarIngredientesLanche() {
-		System.out.println("FRITANDO A CARNE E OVO PARA");
+		System.out.println("FRITANDO A CARNE E OVO PARA O HAMBURGUER");
 	}
 	
 	public void pedirParaTrocarGas(Atendente meuAmigo) {

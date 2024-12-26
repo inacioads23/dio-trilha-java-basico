@@ -2,10 +2,15 @@ package lanchonete;
 
 import java.time.temporal.TemporalAmount;
 
+import lanchonete.area.cliente.Cliente;
+import lanchonete.atendimento.Atendente;
+import lanchonete.atendimento.cozinha.Almoxarife;
+import lanchonete.atendimento.cozinha.Cozinheiro;
+
 public class Estabelecimento {
 	public static void main(String[] args) {
 		Cozinheiro cozinheiro = new Cozinheiro();
-		//ações que não precisam estar disponíveis
+		//ações que não precisam estar disponíveis para toda a aplicação
 		cozinheiro.lavarIngredientes();
 		cozinheiro.baterVitaminaLiquidificador();		
 		cozinheiro.selecionarIngredientesLanche();
@@ -22,7 +27,7 @@ public class Estabelecimento {
 		//ações que não precisam estar disponíveis
 		almoxarife.controlarEntrada();
 		almoxarife.controlarSaida();		
-		//ações que somente o pacote cozinha precisa
+		//ações que somente o pacote cozinha precisa conhecer
 		almoxarife.entregarIngredientes();
 		almoxarife.trocarGas();
 		
@@ -30,7 +35,7 @@ public class Estabelecimento {
 		atendente.pegarLancheCozinha();
 		atendente.receberPagamento();
 		atendente.servirMesa();
-		//ação que somente o pacote cozinha precisa
+		//ação que somente o pacote cozinha precisa conhecer
 		atendente.trocarGas();
 		
 		Cliente cliente = new Cliente();

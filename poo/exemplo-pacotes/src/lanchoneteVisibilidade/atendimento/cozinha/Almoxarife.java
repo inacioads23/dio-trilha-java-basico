@@ -1,4 +1,4 @@
-package lanchonete.atendimento.cozinha;
+package lanchoneteVisibilidade.atendimento.cozinha;
 
 public class Almoxarife {
 

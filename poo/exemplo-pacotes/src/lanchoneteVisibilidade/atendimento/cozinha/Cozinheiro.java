@@ -1,4 +1,4 @@
-package lanchonete.atendimento.cozinha;
+package lanchoneteVisibilidade.atendimento.cozinha;
 
 public class Cozinheiro {
 	//pode ser default - visível apaenas no pacote

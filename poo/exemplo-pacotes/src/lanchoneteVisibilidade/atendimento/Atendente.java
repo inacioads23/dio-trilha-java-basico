@@ -1,4 +1,4 @@
-package lanchonete.atendimento;
+package lanchoneteVisibilidade.atendimento;
 
 public class Atendente {
 	

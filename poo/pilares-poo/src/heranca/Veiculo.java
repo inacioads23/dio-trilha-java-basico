@@ -1,5 +1,6 @@
 package heranca;
 
+//Classe genérica
 public class Veiculo {
 private String chassi;
 	
